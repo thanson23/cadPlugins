@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilFuscoe.Plugin", "src\Tolerance.Plugin\UtilFuscoe.Plugin.csproj", "{A9C49237-2E1F-4FFF-9594-9CFA4C541F36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{56B43B4E-5325-43AA-A5AD-8AC2F5BCDBF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoCAD.Utils", "src\AutoCAD.Utils\AutoCAD.Utils.csproj", "{86A960BE-E712-474D-8AC9-7B6CD2C5947C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9C49237-2E1F-4FFF-9594-9CFA4C541F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C49237-2E1F-4FFF-9594-9CFA4C541F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C49237-2E1F-4FFF-9594-9CFA4C541F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C49237-2E1F-4FFF-9594-9CFA4C541F36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A960BE-E712-474D-8AC9-7B6CD2C5947C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A960BE-E712-474D-8AC9-7B6CD2C5947C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A960BE-E712-474D-8AC9-7B6CD2C5947C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A960BE-E712-474D-8AC9-7B6CD2C5947C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86A960BE-E712-474D-8AC9-7B6CD2C5947C} = {56B43B4E-5325-43AA-A5AD-8AC2F5BCDBF1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E781C985-A8A8-4A21-BAB8-1E58D610EC8F}
+	EndGlobalSection
+EndGlobal

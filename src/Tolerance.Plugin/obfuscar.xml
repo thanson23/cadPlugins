@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Obfuscator>
+    <Var name="InPath" value="." />
+    <Var name="OutPath" value="$(InPath)\obfuscated" />
+    <!-- AutoCAD breaks without this -->
+    <Var name="HideStrings" value="false" />
+    <Module file="bin\Release\Tolerance.Plugin.dll" />
+    <Module file="bin\Release\AutoCAD.Utils.dll" />
+    <AssemblySearchPath path="C:\Program Files\Autodesk\AutoCAD 2023\" />
+    <AssemblySearchPath path="C:\Program Files\Autodesk\AutoCAD 2023\C3D" />
+    <Var name="KeepPublicApi" value="false" />
+    <Var name="HidePrivateApi" value="true" />
+</Obfuscator>

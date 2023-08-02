@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files\Autodesk\AutoCAD 2023\acad.exe</StartProgram>
+    <StartArguments>/ld "C:\Program Files\Autodesk\AutoCAD 2023\AecBase.dbx" /p "&lt;&lt;C3D_Imperial&gt;&gt;" /product C3D /language en-US /nohardware /b C:\Users\User\pvgrade\src\Tolerance.Plugin\test.scr</StartArguments>
+    <StartWorkingDirectory>
+    </StartWorkingDirectory>
+  </PropertyGroup>
+</Project>
